@@ -1,0 +1,24 @@
+# Ignorar archivos de credenciales
+*.json
+*.pem
+*.key
+
+# Ignorar archivos de configuración de Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+terraform.tfvars
+variables.tf
+**/variables.tf
+*.backup
+
+# Ignorar archivos sensibles o innecesarios
+*.log
+.env
+.DS_Store
+
+# Ignorar configuraciones locales de desarrollo
+.idea/
+.vscode/
+
